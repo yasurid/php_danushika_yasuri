@@ -50,12 +50,12 @@
                   </button>
                 </td>
                 <td>
-                <a type="button" class="btn btn-info" href="http://test123.test/index.php/Dashboard/edit/<?= $mem->MemberId ?>">
+                <a type="button" class="btn btn-info" href="<?php echo Domain ?>index.php/Dashboard/edit/<?= $mem->MemberId ?>">
                     Edit
               </a>
                 </td>
                 <td>
-                <a type="button" class="btn btn-danger" href="http://test123.test/index.php/Dashboard/delete/<?= $mem->MemberId ?>">
+                <a type="button" class="btn btn-danger" href="<?php echo Domain ?>index.php/Dashboard/delete/<?= $mem->MemberId ?>">
                     Delete
               </a>
                 </td>
